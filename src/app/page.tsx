@@ -11,7 +11,7 @@ import Subscription from "@/components/subscription";
 
 export default function Home() {
   return (
-    <main>
+    <div className="space-y-4">
       <HomePage />
       <HowItWorks />
       <Explore />
@@ -21,7 +21,6 @@ export default function Home() {
       <Reviews />
       <Faqs />
       <GetStarted />
-      <Footer />
-    </main>
+    </div>
   );
 }

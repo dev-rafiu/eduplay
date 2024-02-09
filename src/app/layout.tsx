@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Comic_Neue, Quicksand } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/header";
+import Footer from "@/components/footer";
 
 const comic_neue = Comic_Neue({
   subsets: ["latin"],
@@ -26,8 +27,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={quicksand.className}>
-        <Header />
-        <main>{children}</main>
+        <div className="space-y-4">
+          <Header />
+          <main className="container">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
