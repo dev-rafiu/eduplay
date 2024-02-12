@@ -2,9 +2,9 @@ import Image from "next/image";
 
 function Partners() {
   return (
-    <section>
+    <section className="text-center space-y-8 py-12">
       <h2>You might know us from</h2>
-      <ul>
+      <ul className="flex flex-wrap items-center justify-center gap-4 max-w-xl mx-auto lg:gap-8">
         <li>
           <Image
             src="/images/partners/kuukid.png"

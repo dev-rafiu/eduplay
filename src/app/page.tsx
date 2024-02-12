@@ -13,12 +13,12 @@ import Subscription from "@/components/subscription";
 export default function Home() {
   return (
     <div className="">
-      <Hero />
-      <Features />
+      {/* <Hero /> */}
+      {/* <Features /> */}
       {/* <HowItWorks /> */}
       {/* <Explore /> */}
       {/* <Games /> */}
-      {/* <Partners /> */}
+      <Partners />
       {/* <Subscription /> */}
       {/* <Reviews /> */}
       {/* <Faqs /> */}
