@@ -1,0 +1,6 @@
+[] re-position hero secction image
+[] set gradient color on hero title span
+[] add rating stars
+
+
+[] check warning messages in console
