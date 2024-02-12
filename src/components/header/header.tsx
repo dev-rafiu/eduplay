@@ -4,19 +4,23 @@ import { FiMenu } from "react-icons/fi";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between container py-5">
+    <header className="flex justify-between container py-5">
       {/* desktop logo */}
-      <Link href="/" className="hidden lg:inline-block">
+      <Link href="/" className="hidden lg:flex items-center">
         <Image src="/logo-desktop.png" alt="logo" width={90} height={70} />
       </Link>
+
       {/* mobile logo */}
       <Link href="/" className="lg:hidden">
         <Image src="/logo-mobile.png" alt="logo" width={32} height={40} />
       </Link>
+
       {/* menu button */}
       <button className="lg:hidden">
         <FiMenu size={30} />
       </button>
+
+      {/* nav */}
       <nav className="hidden lg:block">
         <ul className="flex items-center gap-8 capitalize">
           <li>

@@ -10,7 +10,7 @@ const comic_neue = Comic_Neue({
 });
 
 const quicksand = Quicksand({
-  subsets: ["latin"],
+  subsets: ["latin-ext"],
 });
 
 export const metadata: Metadata = {
@@ -27,10 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={quicksand.className}>
-        <div className="space-y-4">
+        <div className="">
           <Header />
-          <main className="container">{children}</main>
-          <Footer />
+          <main>{children}</main>
+          {/* <Footer /> */}
         </div>
       </body>
     </html>
