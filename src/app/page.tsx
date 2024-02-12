@@ -18,7 +18,7 @@ export default function Home() {
       {/* <HowItWorks /> */}
       {/* <Explore /> */}
       {/* <Games /> */}
-      <Partners />
+      {/* <Partners /> */}
       {/* <Subscription /> */}
       {/* <Reviews /> */}
       {/* <Faqs /> */}

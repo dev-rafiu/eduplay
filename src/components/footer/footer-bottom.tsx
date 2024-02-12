@@ -2,9 +2,9 @@ import Link from "next/link";
 
 function FooterBottom() {
   return (
-    <div className="">
+    <div className="flex justify-center flex-col space-y-2 lg:flex-row lg:items-center lg:space-y-0 lg:justify-between font-[500]">
       <nav>
-        <ul className="">
+        <ul className="flex gap-4 justify-between">
           <li>
             <Link href="#">Privacy Policy</Link>
           </li>
@@ -18,7 +18,7 @@ function FooterBottom() {
       </nav>
 
       <p>
-        &copy; Copyright <span>{new Date().getFullYear()}.</span> All Rights
+        &copy; Copyright <span>{new Date().getFullYear()},</span> All Rights
         Reserved
       </p>
     </div>

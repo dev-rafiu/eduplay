@@ -75,17 +75,17 @@ const links = [
 
 function FooterTop() {
   return (
-    <div>
-      <div className="">
+    <div className="grid gap-4 lg:grid-cols-[auto,_auto,_auto,_auto]">
+      <div className="space-y-4">
         <Image src="/logo-desktop.png" alt="logo" width={80} height={80} />
-        <p>
+        <p className="max-w-md">
           Where every game is a lesson, and every lesson is a game. Our app
           transforms education into playful games, captivating young minds with
           interactive fun.
         </p>
 
         {/* download links */}
-        <div>
+        <div className="flex items-center gap-4">
           <a href="#" className="">
             <Image
               src="/images/appstore.jpg"
@@ -110,14 +110,17 @@ function FooterTop() {
       {links.map((item) => {
         const { id, category, links } = item;
         return (
-          <div key={id}>
+          <div key={id} className="space-y-4">
             <h4>{category}</h4>
-            <ul>
+            <ul className="grid gap-3">
               {links.map((link) => {
                 const { id, text, Icon } = link;
                 return (
                   <li key={id}>
-                    <Link href="#" className="">
+                    <Link
+                      href="#"
+                      className="flex items-center gap-3 capitalize w-max"
+                    >
                       {Icon !== null && Icon}
                       {text}
                     </Link>

@@ -3,7 +3,7 @@ import FooterTop from "./footer-top";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="container space-y-8">
       <FooterTop />
       <FooterBottom />
     </footer>
