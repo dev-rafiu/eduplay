@@ -1,6 +1,7 @@
 [] re-position hero secction image
 [] set gradient color on hero title span
 [] add rating stars
+[] re-size footer logo to match header logo
 
 
 [] check warning messages in console
