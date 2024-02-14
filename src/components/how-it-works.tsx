@@ -3,68 +3,96 @@ import Image from "next/image";
 
 function HowItWorks() {
   return (
-    <section>
-      <div>
-        <h2>How it works: Downloading EduPlay</h2>
-        <p>
+    <section className="container py-12 flex flex-col lg:flex-row items-center gap-4 lg:justify-between">
+      <Image
+        src="/images/how-it-works/design.png"
+        alt=""
+        width={100}
+        height={10}
+        className="absolute top-[6rem] left-0 hidden lg:inline-block"
+      />
+
+      <div className="space-y-6">
+        <h2 className="max-w-[300px]">How it works: Downloading EduPlay</h2>
+
+        <p className="max-w-xl">
           Discover the magic of EduPlay in just a few simple steps! Download the
           app and unlock a world where learning meets play. All designed to
           captivate young minds and make education an exciting journey.
         </p>
-        <ul>
-          <li>
-            <span>1</span>
+
+        <ul className="grid gap-4">
+          <li className="flex items-center gap-4 font-semibold">
+            <span className="p-2 size-7 text-sm grid place-content-center text-background rounded-full bg-gradient-to-r from-sea-blue to-violet">
+              1
+            </span>
             <span>Download our app</span>
           </li>
-          <li>
-            <span>2</span>
+
+          <li className="flex items-center gap-4 font-semibold">
+            <span className="p-2 size-7 text-sm grid place-content-center text-background rounded-full bg-gradient-to-r from-sea-blue to-violet">
+              2
+            </span>
             <span>Explore and Sign Up</span>
           </li>
-          <li>
-            <span>3</span>
+
+          <li className="flex items-center gap-4 font-semibold">
+            <span className="p-2 size-7 text-sm grid place-content-center text-background rounded-full bg-gradient-to-r from-sea-blue to-violet">
+              3
+            </span>
             <span>Customize preferences for a personalized learning</span>
           </li>
-          <li>
-            <span>4</span>
+
+          <li className="flex items-center gap-4 font-semibold">
+            <span className="p-2 size-7 text-sm grid place-content-center text-background rounded-full bg-gradient-to-r from-sea-blue to-violet">
+              4
+            </span>
             <span>Dive into Playful Learning</span>
           </li>
-          <li>
-            <span>5</span>
+
+          <li className="flex items-center gap-4 font-semibold">
+            <span className="p-2 size-7 text-sm grid place-content-center text-background rounded-full bg-gradient-to-r from-sea-blue to-violet">
+              5
+            </span>
             <span>Track Progress and Celebrate Achievements</span>
           </li>
-          <li>
-            <span>6</span>
+
+          <li className="flex items-center gap-4 font-semibold">
+            <span className="p-2 size-7 text-sm grid place-content-center text-background rounded-full bg-gradient-to-r from-sea-blue to-violet">
+              6
+            </span>
             <span>Stay Connected & Enjoy the Benefits of EduPlay</span>
           </li>
         </ul>
 
-        <div>
-          <a href="#">
-            <Image
-              src="/images/appstore.jpg"
-              alt="Appstore link"
-              width={80}
-              height={80}
-            />
-          </a>
-
+        <div className="flex items-center gap-3">
           <a href="#">
             <Image
               src="/images/playstore.jpg"
               alt="Playstore link"
-              width={80}
-              height={80}
+              width={120}
+              height={120}
+            />
+          </a>
+
+          <a href="#" className="">
+            <Image
+              src="/images/appstore.jpg"
+              className="bg-violet"
+              alt="Appstore link"
+              width={110}
+              height={100}
             />
           </a>
         </div>
       </div>
 
-      <div>
+      <div className="relative w-[20rem] h-[28rem] lg:h-[35rem]">
         <Image
-          src="/images/mobile-app-screen.png"
-          alt="mobile screen"
-          width={500}
-          height={300}
+          src="/images/how-it-works/mobile-screen.png"
+          alt=""
+          fill
+          className="object-contain"
         />
       </div>
     </section>

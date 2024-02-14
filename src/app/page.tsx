@@ -15,11 +15,11 @@ export default function Home() {
     <div>
       {/* <Hero /> */}
       {/* <Features /> */}
-      {/* <HowItWorks /> */}
+      <HowItWorks />
       {/* <Explore /> */}
       {/* <Games /> */}
       {/* <Partners /> */}
-      <Subscription />
+      {/* <Subscription /> */}
       {/* <Reviews /> */}
       {/* <Faqs /> */}
       {/* <GetStarted /> */}
