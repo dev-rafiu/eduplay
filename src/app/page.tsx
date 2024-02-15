@@ -15,9 +15,9 @@ export default function Home() {
     <div>
       {/* <Hero /> */}
       {/* <Features /> */}
-      <HowItWorks />
+      {/* <HowItWorks /> */}
       {/* <Explore /> */}
-      {/* <Games /> */}
+      <Games />
       {/* <Partners /> */}
       {/* <Subscription /> */}
       {/* <Reviews /> */}
