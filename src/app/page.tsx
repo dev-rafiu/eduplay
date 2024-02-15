@@ -17,10 +17,10 @@ export default function Home() {
       {/* <Features /> */}
       {/* <HowItWorks /> */}
       {/* <Explore /> */}
-      <Games />
+      {/* <Games /> */}
       {/* <Partners /> */}
       {/* <Subscription /> */}
-      {/* <Reviews /> */}
+      <Reviews />
       {/* <Faqs /> */}
       {/* <GetStarted /> */}
     </div>
