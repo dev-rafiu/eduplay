@@ -3,7 +3,7 @@ import Image from "next/image";
 function Hero() {
   return (
     <section className="bg-[#FBFBFD]">
-      <div className="flex items-center justify-between max-w-md px-[2rem]">
+      <div className="flex items-center justify-between max-w-md px-[2rem] lg:px-[4rem]">
         <Image
           src="/images/hero/design-left.jpg"
           alt=""
