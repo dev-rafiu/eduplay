@@ -1,4 +1,4 @@
-import Explore from "@/components/explore";
+import ExploreCourse from "@/components/explore-course";
 import Faqs from "@/components/faqs";
 import Features from "@/components/features";
 import Footer from "@/components/footer";
@@ -16,12 +16,12 @@ export default function Home() {
       {/* <Hero /> */}
       {/* <Features /> */}
       {/* <HowItWorks /> */}
-      {/* <Explore /> */}
+      <ExploreCourse />
       {/* <Games /> */}
       {/* <Partners /> */}
       {/* <Subscription /> */}
       {/* <Reviews /> */}
-      <Faqs />
+      {/* <Faqs /> */}
       {/* <GetStarted /> */}
     </div>
   );

@@ -1,12 +1,12 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
 
 const config = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   prefix: "",
   theme: {
@@ -18,6 +18,21 @@ const config = {
       },
     },
     extend: {
+      colors: {
+        foreground: "rgba(var(--foreground), <alpha-value>)",
+        background: "rgba(var(--background), <alpha-value>)",
+        yellow: "rgba(var(--yellow), <alpha-value>)",
+        red: "rgba(var(--red), <alpha-value>)",
+        violet: "rgba(var(--violet), <alpha-value>)",
+        green: "rgba(var(--green), <alpha-value>)",
+        "gray-50": "rgba(var(--gray-50), <alpha-value>)",
+        "gray-100": "rgba(var(--gray-100), <alpha-value>)",
+        "gray-200": "rgba(var(--gray-200), <alpha-value>)",
+        "gray-300": "rgba(var(--gray-300), <alpha-value>)",
+        "gray-400": "rgba(var(--gray-400), <alpha-value>)",
+        "sea-blue": "rgba(var(--sea-blue), <alpha-value>)",
+      },
+
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -35,6 +50,6 @@ const config = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config
+} satisfies Config;
 
-export default config
+export default config;

@@ -43,3 +43,10 @@
 body {
   background-color: var(--background);
 }
+
+.explore-course {
+  background-image: url(/images/explore-course/bg-img.png);
+  background-color: rgb(var(--violet));
+  background-position: center;
+  background-size: cover;
+}
