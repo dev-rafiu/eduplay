@@ -4,6 +4,6 @@
 [] re-size footer logo to match header logo
 [] refactor all sections
 [] check and fix mobile screen issues
-[] create custom background on reviews section
+[] create custom background on (reviews,get started)
  
 [] check warning messages in console

@@ -20,9 +20,9 @@ export default function Home() {
       {/* <Games /> */}
       {/* <Partners /> */}
       {/* <Subscription /> */}
-      <Reviews />
+      {/* <Reviews /> */}
       {/* <Faqs /> */}
-      {/* <GetStarted /> */}
+      <GetStarted />
     </div>
   );
 }
