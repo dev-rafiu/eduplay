@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Reviews() {
   return (
-    <section className="container space-y-8 py-12">
+    <section className="container space-y-8 py-10">
       <header className="flex items-center flex-col lg:flex-row lg:justify-between">
         <Image
           src="/images/reviews/orbit.png"

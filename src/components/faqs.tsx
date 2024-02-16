@@ -31,7 +31,7 @@ const faqs = [
 
 function Faqs() {
   return (
-    <section className="container py-12 grid gap-4 lg:grid-cols-2">
+    <section className="container py-10 grid gap-4 lg:grid-cols-2">
       <h2 className="max-w-xs h-max">Frequently Asked Questions</h2>
 
       <ul className="flex flex-col gap-4">

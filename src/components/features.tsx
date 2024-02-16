@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Features() {
   return (
-    <section className="bg-gray-100 p-8">
+    <section className="px-8 py-10">
       <ul className="grid lg:grid-cols-3 bg-background gap-4 rounded container">
         <li className="space-y-4 py-4 text-center lg:text-left">
           <Image

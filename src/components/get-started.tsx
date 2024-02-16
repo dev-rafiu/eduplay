@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function GetStarted() {
   return (
-    <section className="container relative pt-12 space-y-8 pb-0">
+    <section className="container relative pt-10 space-y-8 pb-0">
       <div className="flex lg:flex-row gap-4 lg:gap-12 flex-col-reverse justify-between">
         <div className="w-full max-w-[48rem] h-[25rem] relative">
           <Image

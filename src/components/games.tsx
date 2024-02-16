@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Games() {
   return (
-    <section className="container space-y-8 lg:space-y-12 relative py-12">
+    <section className="container space-y-8 lg:space-y-12 relative py-10">
       <header className="space-y-4">
         <h2 className="text-center">Join millions of confident learners </h2>
         <ul className="flex flex-col lg:flex-row gap-0 justify-center max-w-2xl mx-auto text-center">

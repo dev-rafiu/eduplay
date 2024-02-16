@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function HowItWorks() {
   return (
-    <section className="container py-12 flex flex-col lg:flex-row items-center gap-4 lg:justify-between">
+    <section className="container py-10 flex flex-col lg:flex-row items-center gap-4 lg:justify-between">
       <Image
         src="/images/how-it-works/design.png"
         alt=""
