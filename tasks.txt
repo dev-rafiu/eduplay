@@ -7,3 +7,5 @@
 [] create custom background on (reviews,get started)
  
 [] check warning messages in console
+[] add placeholders for large images using next.js
+ 

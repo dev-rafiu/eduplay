@@ -21,8 +21,8 @@ export default function Home() {
       {/* <Partners /> */}
       {/* <Subscription /> */}
       {/* <Reviews /> */}
-      {/* <Faqs /> */}
-      <GetStarted />
+      <Faqs />
+      {/* <GetStarted /> */}
     </div>
   );
 }
