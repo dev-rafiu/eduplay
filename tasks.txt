@@ -1,11 +1,11 @@
 [x] re-position hero secction image
-[] set gradient color on hero title span
+[x] set gradient color on hero title span
 [x] add rating stars on all sections(reviews,hero)
 [x] re-size footer logo to match header logo
-[] refactor all sections
-[] check and fix mobile screen issues
-[] create custom background on (reviews,get started)
-[] change components names using UI mockup names
+[x] refactor all sections
+[x] check and fix mobile screen issues
+[x] create custom background on (reviews,get started)
+[x] change components names using UI mockup names
   
 [] check warning messages in console
 [] add placeholders for large images using next.js

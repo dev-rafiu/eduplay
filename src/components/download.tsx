@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Download() {
   return (
-    <section className="container py-10 flex flex-col lg:flex-row items-center gap-4 lg:justify-between relative border">
+    <section className="container py-10 flex flex-col sm:flex-row items-center gap-4 sm:justify-between relative">
       <Image
         src="/images/how-it-works/design.png"
         alt=""
@@ -12,12 +12,13 @@ function Download() {
         className="absolute top-0 left-0 hidden lg:inline-block"
       />
 
-      <div className="space-y-6">
+      {/* section info */}
+      <div className="space-y-5">
         <h2 className="max-w-[380px] lg:w-[350px]">
           How it works: Downloading EduPlay
         </h2>
 
-        <p className="max-w-xl">
+        <p className="max-w-md leading-6">
           Discover the magic of EduPlay in just a few simple steps! Download the
           app and unlock a world where learning meets play. All designed to
           captivate young minds and make education an exciting journey.
@@ -91,11 +92,12 @@ function Download() {
       </div>
 
       {/* section image */}
-      <div className="relative w-[20rem] h-[36rem] lg:h-[35rem] border">
+      <div className="relative w-[20rem] h-[36rem] lg:h-[35rem]">
         <Image
           src="/images/how-it-works/mobile-screen.png"
           alt=""
           fill
+          sizes="100vw"
           className="object-contain"
         />
       </div>

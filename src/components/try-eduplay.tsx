@@ -2,17 +2,21 @@ import Image from "next/image";
 
 function TryEduplay() {
   return (
-    <section className="relative pt-10 space-y-8 pb-0 try-eduplay">
+    <section className="relative pt-10 space-y-8 pb-0 bg-[hsl(240,33%,98%)]">
       <div className="container">
-        <div className="flex lg:flex-row gap-4 lg:gap-12 flex-col-reverse justify-center">
+        <div className="flex sm:flex-row gap-4 lg:gap-12 flex-col-reverse">
+          {/* section image */}
           <div className="w-full max-w-[45rem] h-[25rem] relative">
             <Image
               src="/images/get-started/primary-img.png"
               alt=""
               fill
+              sizes="100vw"
               className="object-cover"
             />
           </div>
+
+          {/* section info */}
           <div className="space-y-4 lg:pt-14">
             <h2>Try EduPlay for free</h2>
             <p className="max-w-md">

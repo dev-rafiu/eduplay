@@ -11,12 +11,12 @@ import Features from "@/components/features";
 
 export default function Home() {
   return (
-    <div className="space-y-4">
+    <div className="">
       <Hero />
       <Features />
       <Download />
       <ExploreCourse />
-      <Games />/
+      <Games />
       <Partners />
       <Newsletter />
       <Reviews />

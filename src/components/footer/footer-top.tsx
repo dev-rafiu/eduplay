@@ -107,7 +107,7 @@ function FooterTop() {
         </div>
       </div>
 
-      {/* footer link */}
+      {/* footer links */}
       {links.map((item) => {
         const { id, category, links } = item;
         return (

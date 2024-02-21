@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Games() {
   return (
-    <section className="container space-y-8 lg:space-y-12 relative py-10">
+    <section className="container space-y-8 lg:space-y-12 relative py-10 bg-[hsl(240,33%,98%)]">
       <header className="space-y-4">
         <h2 className="text-center">Join millions of confident learners </h2>
         <ul className="flex flex-col lg:flex-row gap-0 justify-center max-w-2xl mx-auto text-center">
@@ -62,40 +62,46 @@ function Games() {
             </li>
 
             <li className="size-8 ounded-full bg-gradient-to-r from-sea-blue to-violet grid place-content-center rounded-full">
-              <span className="bg-background size-7 rounded-full grid place-content-center">
+              <span className="bg-background size-[29px] rounded-full grid place-content-center">
                 2
               </span>
             </li>
 
             <li className="size-8 ounded-full bg-gradient-to-r from-sea-blue to-violet grid place-content-center rounded-full">
-              <span className="bg-background size-7 rounded-full grid place-content-center">
+              <span className="bg-background size-[29px] rounded-full grid place-content-center">
                 3
               </span>
             </li>
 
             <li className="size-8 ounded-full bg-gradient-to-r from-sea-blue to-violet grid place-content-center rounded-full">
-              <span className="bg-background size-7 rounded-full grid place-content-center">
+              <span className="bg-background size-[29px] rounded-full grid place-content-center">
                 4
               </span>
             </li>
 
             <li className="size-8 ounded-full bg-gradient-to-r from-sea-blue to-violet grid place-content-center rounded-full">
-              <span className="bg-background size-7 rounded-full grid place-content-center">
+              <span className="bg-background size-[29px] rounded-full grid place-content-center">
                 5
               </span>
             </li>
 
             <li className="size-8 ounded-full bg-gradient-to-r from-sea-blue to-violet grid place-content-center rounded-full">
-              <span className="bg-background size-7 rounded-full grid place-content-center">
+              <span className="bg-background size-[29px] rounded-full grid place-content-center">
                 6
               </span>
             </li>
           </ul>
-          <span className="hidden lg:block h-10 bg-gray-100 w-[2px]"></span>
-          <div className="grid grid-cols-2 bg-gradient-to-r from-sea-blue to-violet rounded-full overflow-hidden">
-            <div className="p-2 text-background">Games (3867+)</div>
-            <div className="bg-background grid place-content-center border m-[1px] rounded-full rounded-l-none px-4">
-              <span className="">Practice sheets (3238+)</span>
+          <span className="hidden lg:block h-10 bg-gray-100 w-[2px]" />
+
+          {/* no of games and practice sheets */}
+          <div className="grid grid-cols-2 text-sm">
+            <div className="text-background bg-gradient-to-r from-sea-blue to-violet rounded-full rounded-r-none p-2 flex items-center justify-center">
+              Games (3867+)
+            </div>
+            <div className="rounded-full rounded-l-none flex items-center bg-gradient-to-r from-sea-blue to-violet overflow-hidden p-[1px] pl-0">
+              <span className="text-foreground bg-[hsl(240,33%,98%)] border w-full rounded-full rounded-l-none p-2">
+                Practice sheets (3238+)
+              </span>
             </div>
           </div>
         </div>
@@ -108,7 +114,7 @@ function Games() {
                 src="/images/games/pre-kindergarten.png"
                 alt=""
                 fill
-                className="object-fill"
+                className="object-cover"
               />
             </div>
 
@@ -137,7 +143,7 @@ function Games() {
                 src="/images/games/kindergarten.png"
                 alt=""
                 fill
-                className="object-fill"
+                className="object-cover"
               />
             </div>
 
@@ -166,7 +172,8 @@ function Games() {
                 src="/images/games/grade-one.png"
                 alt=""
                 fill
-                className="object-fill"
+                sizes="100vw"
+                className="object-cover"
               />
             </div>
 
@@ -190,12 +197,12 @@ function Games() {
           </article>
         </div>
 
-        <div className="space-y-2">
+        <div className="space-y-4">
           <button className="bg-violet text-background py-2 px-3 rounded font-semibold text-sm">
             Browse our library
           </button>
 
-          <p className="flex items-center gap-2 justify-center">
+          <p className="flex flex-wrap items-center gap-2 justify-center leading-3">
             <Image src="/images/bell.png" alt="" width={20} height={20} />
             <span>We keep releasing new games</span>
             <span className="underline">every three weeks</span>
