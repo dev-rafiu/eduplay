@@ -27,10 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={quicksand.className}>
-        <div className="">
+        <div className="flex flex-col">
           <Header />
-          <main>{children}</main>
-          {/* <Footer /> */}
+          <main className="grow">{children}</main>
+          <Footer />
         </div>
       </body>
     </html>

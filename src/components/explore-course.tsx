@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function ExploreCourse() {
   return (
-    <section className="explore-course py-10 border">
+    <section className="explore-course py-6 border">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-4 container">
         <div className="space-y-4 text-background">
           <h2 className="max-w-sm">

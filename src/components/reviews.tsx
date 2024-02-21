@@ -33,8 +33,8 @@ function Reviews() {
         />
       </header>
 
-      <div className="grid lg:grid-cols-3 gap-8">
-        <article className="space-y-2 shadow-md p-6 rounded">
+      <div className="grid lg:grid-cols-[repeat(3,_400px)] gap-8 lg:place-content-center">
+        <article className="space-y-2 shadow-md py-6 px-4 rounded">
           <Image
             src="/images/reviews/quote.png"
             alt=""
@@ -46,10 +46,18 @@ function Reviews() {
             games make learning enjoyable, and the personalized practice sheets
             are a lifesaver.
           </p>
-          <p className="font-bold">Emily Halter (AppStore)</p>
+          <p className="font-bold flex items-center justify-between gap-1">
+            <span className="text-sm">Emily Halter (AppStore)</span>
+            <Image
+              src="/images/ratings.png"
+              alt="ratings"
+              width={90}
+              height={40}
+            />
+          </p>
         </article>
 
-        <article className="space-y-2 shadow-md p-6 rounded">
+        <article className="space-y-2 shadow-md py-6 px-4 rounded">
           <Image
             src="/images/reviews/quote.png"
             alt=""
@@ -61,7 +69,15 @@ function Reviews() {
             stories are super fun. I can even tell my own stories sometimes!
             EduPlay makes me look forward to learning.
           </p>
-          <p className="font-bold">Mars Sam (GooglePlay)</p>
+          <p className="font-bold flex items-center justify-between gap-1">
+            <span className="text-sm">Mars Sam (GooglePlay)</span>
+            <Image
+              src="/images/ratings.png"
+              alt="ratings"
+              width={90}
+              height={40}
+            />
+          </p>
         </article>
 
         <article className="space-y-2 shadow-md p-6 rounded">
@@ -76,7 +92,15 @@ function Reviews() {
             game-changer for us. The games cover a range of subjects, making
             learning diverse and engaging
           </p>
-          <p className="font-bold">Lisa Parker (AppStore)</p>
+          <p className="font-bold text-sm flex items-center justify-between gap-1">
+            <span>Lisa Parker (AppStore)</span>
+            <Image
+              src="/images/ratings.png"
+              alt="ratings"
+              width={90}
+              height={40}
+            />
+          </p>
         </article>
       </div>
 

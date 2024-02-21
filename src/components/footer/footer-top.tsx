@@ -77,7 +77,7 @@ function FooterTop() {
   return (
     <div className="grid gap-4 lg:grid-cols-[auto,_auto,_auto,_auto]">
       <div className="space-y-4">
-        <Image src="/logo-desktop.png" alt="logo" width={80} height={80} />
+        <Image src="/logo-desktop.png" alt="logo" width={90} height={70} />
         <p className="max-w-md">
           Where every game is a lesson, and every lesson is a game. Our app
           transforms education into playful games, captivating young minds with
@@ -107,6 +107,7 @@ function FooterTop() {
         </div>
       </div>
 
+      {/* footer link */}
       {links.map((item) => {
         const { id, category, links } = item;
         return (

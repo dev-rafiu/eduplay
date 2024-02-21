@@ -4,7 +4,7 @@ function FooterBottom() {
   return (
     <div className="flex justify-center flex-col space-y-2 lg:flex-row lg:items-center lg:space-y-0 lg:justify-between font-[500]">
       <nav>
-        <ul className="flex gap-4 justify-between">
+        <ul className="flex gap-4 justify-between flex-wrap">
           <li>
             <Link href="#">Privacy Policy</Link>
           </li>

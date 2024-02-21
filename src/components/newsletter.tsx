@@ -1,4 +1,4 @@
-function Subscription() {
+function Newsletter() {
   return (
     <section className=" bg-violet py-10">
       <div className="container grid lg:grid-cols-2 gap-8 lg:items-center">
@@ -28,4 +28,4 @@ function Subscription() {
   );
 }
 
-export default Subscription;
+export default Newsletter;

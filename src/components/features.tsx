@@ -4,7 +4,7 @@ function Features() {
   return (
     <section className="px-8 py-10">
       <ul className="grid lg:grid-cols-3 bg-background gap-4 rounded container">
-        <li className="space-y-4 py-4 text-center lg:text-left">
+        <li className="space-y-2 py-6 text-center lg:text-left">
           <Image
             src="/images/features/engaging-games.png"
             alt=""
@@ -12,14 +12,14 @@ function Features() {
             height={50}
             className="mx-auto lg:mx-0"
           />
-          <h3>Engaging Games</h3>
-          <p className="leading-6 font-light text-gray-400 max-w-sm">
+          <h3 className="text-lg">Engaging Games</h3>
+          <p className="leading-6 font-normal text-gray-400 max-w-md">
             Kids play engaging, interactive games that are geared toward
             different subjects, making learning fun and efficient
           </p>
         </li>
 
-        <li className="space-y-4 py-4 text-center lg:text-left">
+        <li className="space-y-2 py-6 text-center lg:text-left">
           <Image
             src="/images/features/practice-sheets.png"
             alt=""
@@ -27,15 +27,15 @@ function Features() {
             height={50}
             className="mx-auto lg:mx-0"
           />
-          <h3>Practice Sheets</h3>
-          <p className="leading-6 font-light text-gray-400 max-w-sm">
+          <h3 className="text-lg">Practice Sheets</h3>
+          <p className="leading-6 font-normal text-gray-400 max-w-md">
             Practice sheets are customized based on a child&apos;s learning
             progress, focusing on specific skills and concepts that may require
             additional reinforcement.
           </p>
         </li>
 
-        <li className="space-y-4 py-4 text-center lg:text-left">
+        <li className="space-y-2 py-6 text-center lg:text-left">
           <Image
             src="/images/features/bedtime-stories.png"
             alt=""
@@ -43,8 +43,8 @@ function Features() {
             height={50}
             className="mx-auto lg:mx-0"
           />
-          <h3>Bedtime Stories </h3>
-          <p className="leading-6 font-light text-gray-400 max-w-sm">
+          <h3 className="text-lg">Bedtime Stories </h3>
+          <p className="leading-6 font-normal text-gray-400 max-w-md">
             Children actively participate in the storytelling process, making
             bedtime an engaging and collaborative experience for both parents
             and kids.

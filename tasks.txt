@@ -1,7 +1,7 @@
-[] re-position hero secction image
+[x] re-position hero secction image
 [] set gradient color on hero title span
-[] add rating stars on all sections(reviews,hero)
-[] re-size footer logo to match header logo
+[x] add rating stars on all sections(reviews,hero)
+[x] re-size footer logo to match header logo
 [] refactor all sections
 [] check and fix mobile screen issues
 [] create custom background on (reviews,get started)

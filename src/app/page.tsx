@@ -1,28 +1,27 @@
 import ExploreCourse from "@/components/explore-course";
 import Faqs from "@/components/faqs";
-import Features from "@/components/features";
-import Footer from "@/components/footer";
+import Download from "@/components/download";
 import Games from "@/components/games";
-import GetStarted from "@/components/get-started";
+import TryEduplay from "@/components/try-eduplay";
 import Hero from "@/components/hero-section";
-import HowItWorks from "@/components/how-it-works";
 import Partners from "@/components/partners";
 import Reviews from "@/components/reviews";
-import Subscription from "@/components/subscription";
+import Newsletter from "@/components/newsletter";
+import Features from "@/components/features";
 
 export default function Home() {
   return (
-    <div>
+    <div className="space-y-4">
       <Hero />
-      {/* <Features /> */}
-      {/* <HowItWorks /> */}
-      {/* <ExploreCourse /> */}
-      {/* <Games /> */}
-      {/* <Partners /> */}
-      {/* <Subscription /> */}
-      {/* <Reviews /> */}
-      {/* <Faqs /> */}
-      {/* <GetStarted /> */}
+      <Features />
+      <Download />
+      <ExploreCourse />
+      <Games />/
+      <Partners />
+      <Newsletter />
+      <Reviews />
+      <Faqs />
+      <TryEduplay />
     </div>
   );
 }

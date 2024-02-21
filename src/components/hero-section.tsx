@@ -20,11 +20,14 @@ function Hero() {
         />
       </div>
 
-      <div className="container grid gap-8 lg:grid-cols-[1fr,_1fr] pb-12">
+      <div className="container grid gap-8 lg:grid-cols-[1fr,_1fr] pb-10">
         <div className="space-y-4">
           <h1 className="font-bold tracking-normal max-w-md leading-[3rem] lg:leading-[3.5rem]">
             Transforming education into
-            <span className=""> playful adventures</span>
+            <span className="bg-gradient-to-r from-sea-blue to-violet bg-clip-text text-transparent">
+              {" "}
+              playful adventures
+            </span>
           </h1>
 
           <p className="max-w-[490px]">
@@ -48,18 +51,23 @@ function Hero() {
             </a>
           </div>
 
-          <p className="lg:text-left text-center">
-            4.8/5.0 based on 2000 reviews
-            {/*  add ratings */}
+          <p className="flex items-center gap-2 text-sm font-medium justify-center lg:justify-start">
+            <span>4.8/5.0</span>
+            <Image
+              src="/images/ratings.png"
+              alt="ratings"
+              width={90}
+              height={40}
+            />
+            <span>based on 2000 reviews</span>
           </p>
         </div>
 
-        <div className="w-full h-[25rem] lg:h-[40rem] relative lg:-m-20">
+        <div className="w-full h-[25rem] lg:h-[35rem] relative lg:-m-20 place-self-end">
           <Image
             src="/images/hero/hero-img.png"
             alt="kid"
             fill
-            sizes="100vw"
             className="object-cover"
           />
         </div>

@@ -1,19 +1,21 @@
 import Image from "next/image";
 // import MobileAppScreen from "/public/images/mobile-app-screen.png";
 
-function HowItWorks() {
+function Download() {
   return (
-    <section className="container py-10 flex flex-col lg:flex-row items-center gap-4 lg:justify-between">
+    <section className="container py-10 flex flex-col lg:flex-row items-center gap-4 lg:justify-between relative border">
       <Image
         src="/images/how-it-works/design.png"
         alt=""
         width={100}
         height={10}
-        className="absolute top-[6rem] left-0 hidden lg:inline-block"
+        className="absolute top-0 left-0 hidden lg:inline-block"
       />
 
       <div className="space-y-6">
-        <h2 className="max-w-[300px]">How it works: Downloading EduPlay</h2>
+        <h2 className="max-w-[380px] lg:w-[350px]">
+          How it works: Downloading EduPlay
+        </h2>
 
         <p className="max-w-xl">
           Discover the magic of EduPlay in just a few simple steps! Download the
@@ -65,6 +67,7 @@ function HowItWorks() {
           </li>
         </ul>
 
+        {/* download links */}
         <div className="flex items-center gap-3">
           <a href="#">
             <Image
@@ -87,7 +90,8 @@ function HowItWorks() {
         </div>
       </div>
 
-      <div className="relative w-[20rem] h-[28rem] lg:h-[35rem]">
+      {/* section image */}
+      <div className="relative w-[20rem] h-[36rem] lg:h-[35rem] border">
         <Image
           src="/images/how-it-works/mobile-screen.png"
           alt=""
@@ -99,4 +103,4 @@ function HowItWorks() {
   );
 }
 
-export default HowItWorks;
+export default Download;
