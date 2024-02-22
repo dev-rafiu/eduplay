@@ -14,7 +14,7 @@ function ExploreCourse() {
             us and discover why EduPlay is not just the best – it&apos;s the
             magical key to unlocking creativity for your kids.
           </p>
-          <button className="bg-background text-foreground p-2 rounded font-semibold text-sm w-full lg:w-max">
+          <button className="bg-background text-foreground p-4 sm:py-3 rounded font-semibold text-sm w-full lg:w-max">
             🎓 Explore our subjects
           </button>
         </div>

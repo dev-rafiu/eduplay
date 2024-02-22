@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Download() {
   return (
-    <section className="container py-10 flex flex-col sm:flex-row items-center gap-4 sm:justify-between relative">
+    <section className="container py-10 flex flex-col sm:flex-row items-center sm:gap-8 gap-4 sm:justify-between relative">
       <Image
         src="/images/how-it-works/design.png"
         alt=""

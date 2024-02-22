@@ -13,7 +13,7 @@ function Features() {
             className="mx-auto lg:mx-0"
           />
           <h3 className="text-lg">Engaging Games</h3>
-          <p className="leading-6 font-normal text-gray-400 max-w-md">
+          <p className="leading-6 font-normal text-gray-400 max-w-md mx-auto">
             Kids play engaging, interactive games that are geared toward
             different subjects, making learning fun and efficient
           </p>
@@ -28,7 +28,7 @@ function Features() {
             className="mx-auto lg:mx-0"
           />
           <h3 className="text-lg">Practice Sheets</h3>
-          <p className="leading-6 font-normal text-gray-400 max-w-md">
+          <p className="leading-6 font-normal text-gray-400 max-w-md mx-auto">
             Practice sheets are customized based on a child&apos;s learning
             progress, focusing on specific skills and concepts that may require
             additional reinforcement.
@@ -44,7 +44,7 @@ function Features() {
             className="mx-auto lg:mx-0"
           />
           <h3 className="text-lg">Bedtime Stories </h3>
-          <p className="leading-6 font-normal text-gray-400 max-w-md">
+          <p className="leading-6 font-normal text-gray-400 max-w-md mx-auto">
             Children actively participate in the storytelling process, making
             bedtime an engaging and collaborative experience for both parents
             and kids.

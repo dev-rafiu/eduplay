@@ -24,7 +24,7 @@ function TryEduplay() {
               fun and discovery. Ready for endless smiles and learning
               adventures?
             </p>
-            <button className="bg-violet text-background p-3 rounded font-semibold text-sm w-full lg:w-max">
+            <button className="bg-violet text-background p-4 sm:py-3 leading-3 rounded font-semibold text-sm w-full lg:w-max">
               Get started for free
             </button>
           </div>
