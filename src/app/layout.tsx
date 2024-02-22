@@ -14,17 +14,10 @@ const quicksand = Quicksand({
   subsets: ["latin-ext"],
 });
 
-// export const metadata: Metadata = {
-//   title: "EduPlay",
-//   description:
-//     "Transform traditional education into interactive games, making learning journey for your little ones as thrilling as their favorite adventures.",
-// };
-
 const meta = {
-  title: "Ace Legal",
+  title: "EduPlay",
   description:
     "Transform traditional education into interactive games, making learning journey for your little ones as thrilling as their favorite adventures.",
-  // image: `${WEBSITE_HOST_URL}/og-image.jpg`,
 };
 
 export const metadata: Metadata = {
@@ -42,14 +35,11 @@ export const metadata: Metadata = {
     locale: "en-US",
     siteName: meta.title,
     type: "website",
-    // images: [{ url: meta.image }],
   },
 
   twitter: {
     title: meta.title,
     description: meta.description,
-    // images: meta.image,
-    // images: [{ url: meta.image }],
     card: "summary_large_image",
   },
 
