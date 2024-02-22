@@ -107,8 +107,8 @@ function Games() {
         </div>
 
         {/* games grid */}
-        <div className="grid gap-4 lg:gap-6 lg:grid-cols-3 text-left">
-          <article className="shadow-lg rounded-md overflow-hidden">
+        <div className="grid nap-x snap-mandatory gap-4 lg:gap-6 grid-flow-col text-left overflow-x-auto overscroll-contain scrollbar-hide scroll-smooth py-4 sm:py-0">
+          <article className="shadow-lg rounded-md">
             <div className="relative w-full h-56">
               <Image
                 src="/images/games/pre-kindergarten.png"
@@ -137,7 +137,7 @@ function Games() {
             </div>
           </article>
 
-          <article className="shadow-lg rounded-md overflow-hidden">
+          <article className="shadow-lg rounded-md">
             <div className="relative w-full h-56 rounded">
               <Image
                 src="/images/games/kindergarten.png"
@@ -166,7 +166,7 @@ function Games() {
             </div>
           </article>
 
-          <article className="shadow-lg rounded-md overflow-hidden">
+          <article className="shadow-lg rounded-md">
             <div className="relative w-full h-56">
               <Image
                 src="/images/games/grade-one.png"

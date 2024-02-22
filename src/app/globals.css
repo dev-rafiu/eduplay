@@ -40,6 +40,17 @@
   }
 }
 
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
 body {
   background-color: var(--background);
 }
@@ -50,15 +61,3 @@ body {
   background-position: center;
   background-size: cover;
 }
-
-/* .try-eduplay {
-  background-image: repeating-linear-gradient(
-    315deg,
-    rgba(255, 255, 255, 0.25),
-    rgba(255, 255, 255, 0.25) 3px,
-    transparent -19px,
-    transparent 5px
-  );
-  background-size: 6px;
-  background: #898080;
-} */
