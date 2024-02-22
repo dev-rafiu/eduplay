@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export const WEBSITE_HOST_URL =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://adeuplay.netlify.app";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://eduplay.netlify.app";
 
 type changeFrequency =
   | "always"
