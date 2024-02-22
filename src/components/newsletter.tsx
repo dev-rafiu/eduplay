@@ -17,7 +17,7 @@ function Newsletter() {
             className="p-3 border bg-background/70 lg:border-r-0 rounded lg:rounded-r-none placeholder:text-foreground/60"
           />
           <button
-            className="bg-background p-3 rounded lg:rounded-l-none"
+            className="p-3 bg-background rounded lg:rounded-l-none"
             type="button"
           >
             🚀 Subscribe

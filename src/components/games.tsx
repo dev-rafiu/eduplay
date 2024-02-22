@@ -198,7 +198,7 @@ function Games() {
         </div>
 
         <div className="space-y-4">
-          <button className="bg-violet text-background py-2 px-3 rounded font-semibold text-sm">
+          <button className="bg-violet text-background p-3 rounded font-semibold text-sm w-full sm:w-max">
             Browse our library
           </button>
 

@@ -41,13 +41,13 @@ function Hero() {
           <div className="flex gap-4 flex-col sm:flex-row font-bold">
             <a
               href="#"
-              className="bg-violet py-[10px] px-3 rounded text-background text-sm text-center"
+              className="bg-violet p-3 rounded text-background text-sm text-center"
             >
               How does it work?
             </a>
             <a
               href="#"
-              className="bg-gray-100 py-[10px] px-3 rounded text-foreground text-sm text-center"
+              className="bg-gray-100 p-3 rounded text-foreground text-sm text-center"
             >
               📚 Explore library
             </a>
