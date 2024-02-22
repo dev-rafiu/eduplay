@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, Comic_Neue, Quicksand } from "next/font/google";
+import { Comic_Neue, Quicksand } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer";
+import { WEBSITE_HOST_URL } from "./sitemap";
 
 const comic_neue = Comic_Neue({
   subsets: ["latin"],
@@ -13,10 +14,48 @@ const quicksand = Quicksand({
   subsets: ["latin-ext"],
 });
 
-export const metadata: Metadata = {
-  title: "EduPlay",
+// export const metadata: Metadata = {
+//   title: "EduPlay",
+//   description:
+//     "Transform traditional education into interactive games, making learning journey for your little ones as thrilling as their favorite adventures.",
+// };
+
+const meta = {
+  title: "Ace Legal",
   description:
     "Transform traditional education into interactive games, making learning journey for your little ones as thrilling as their favorite adventures.",
+  // image: `${WEBSITE_HOST_URL}/og-image.jpg`,
+};
+
+export const metadata: Metadata = {
+  metadataBase: new URL(`${WEBSITE_HOST_URL}`),
+  title: {
+    default: meta.title,
+    template: `${meta.title} | %s`,
+  },
+  description: meta.description,
+
+  openGraph: {
+    title: meta.title,
+    description: meta.description,
+    url: WEBSITE_HOST_URL,
+    locale: "en-US",
+    siteName: meta.title,
+    type: "website",
+    // images: [{ url: meta.image }],
+  },
+
+  twitter: {
+    title: meta.title,
+    description: meta.description,
+    // images: meta.image,
+    // images: [{ url: meta.image }],
+    card: "summary_large_image",
+  },
+
+  alternates: {
+    canonical: WEBSITE_HOST_URL,
+  },
 };
 
 export default function RootLayout({
