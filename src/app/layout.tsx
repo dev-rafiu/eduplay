@@ -18,6 +18,7 @@ const meta = {
   title: "EduPlay",
   description:
     "Transform traditional education into interactive games, making learning journey for your little ones as thrilling as their favorite adventures.",
+  image: `${WEBSITE_HOST_URL}/og-image.jpg`,
 };
 
 export const metadata: Metadata = {
@@ -35,11 +36,13 @@ export const metadata: Metadata = {
     locale: "en-US",
     siteName: meta.title,
     type: "website",
+    images: [{ url: meta.image }],
   },
 
   twitter: {
     title: meta.title,
     description: meta.description,
+    images: [{ url: meta.image }],
     card: "summary_large_image",
   },
 
