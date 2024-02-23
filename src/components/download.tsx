@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import MobileAppScreen from "/public/images/mobile-app-screen.png";
 
 function Download() {
   return (

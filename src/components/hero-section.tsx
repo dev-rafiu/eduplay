@@ -1,22 +1,26 @@
 import Image from "next/image";
 
+import sectionImage from "/public/images/hero/hero-img.png";
+import designLeft from "/public/images/hero/design-left.jpg";
+import designRight from "/public/images/hero/design-left.jpg";
+
 function Hero() {
   return (
     <section className="bg-[#FBFBFD]">
       <div className="flex lg:items-center justify-between max-w-md px-[2rem] lg:px-[4rem]">
         <Image
-          src="/images/hero/design-left.jpg"
+          src={designLeft}
           alt=""
           width={40}
           height={100}
-          className="object-cover"
+          placeholder="blur"
         />
         <Image
-          src="/images/hero/design-right.jpg"
+          src={designRight}
           alt=""
           width={40}
           height={100}
-          className="object-cover"
+          placeholder="blur"
         />
       </div>
 
@@ -68,10 +72,11 @@ function Hero() {
         {/* section image */}
         <div className="w-full h-[20rem] sm:h-[30rem] relative">
           <Image
-            src="/images/hero/hero-img.png"
+            src={sectionImage}
             alt="kid"
             fill
             sizes="100vw"
+            placeholder="blur"
             className="sm:object-cover object-contain"
           />
         </div>

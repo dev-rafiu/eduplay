@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { FiMenu } from "react-icons/fi";
 
+import playstoreImg from "/public/images/playstore.jpg";
+import appstoreImg from "/public/images/playstore.jpg";
+
 function Header() {
   return (
     <header className="flex justify-between container py-5">
@@ -46,20 +49,22 @@ function Header() {
           <li className="flex items-center gap-3">
             <a href="#">
               <Image
-                src="/images/playstore.jpg"
+                src={playstoreImg}
                 alt="Playstore link"
                 width={120}
                 height={120}
+                placeholder="blur"
               />
             </a>
 
             <a href="#" className="">
               <Image
-                src="/images/appstore.jpg"
+                src={appstoreImg}
                 className="bg-violet"
                 alt="Appstore link"
                 width={110}
                 height={100}
+                placeholder="blur"
               />
             </a>
           </li>

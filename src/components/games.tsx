@@ -1,5 +1,9 @@
 import Image from "next/image";
 
+import imgOne from "/public/images/games/pre-kindergarten.png";
+import imgTwo from "/public/images/games/kindergarten.png";
+import imgThree from "/public/images/games/pre-kindergarten.png";
+
 function Games() {
   return (
     <section className="container space-y-8 lg:space-y-12 relative py-10 bg-[hsl(240,33%,98%)]">
@@ -108,12 +112,13 @@ function Games() {
 
         {/* games grid */}
         <div className="grid nap-x snap-mandatory gap-4 lg:gap-6 grid-flow-col text-left overflow-x-auto overscroll-contain scrollbar-hide scroll-smooth py-4 sm:py-0">
-          <article className="shadow-lg rounded-md">
+          <article className="shadow-lg rounded-md overflow-hidden">
             <div className="relative w-full h-56">
               <Image
-                src="/images/games/pre-kindergarten.png"
+                src={imgOne}
                 alt=""
                 fill
+                placeholder="blur"
                 className="object-cover"
               />
             </div>
@@ -137,13 +142,14 @@ function Games() {
             </div>
           </article>
 
-          <article className="shadow-lg rounded-md">
+          <article className="shadow-lg rounded-md overflow-hidden">
             <div className="relative w-full h-56 rounded">
               <Image
-                src="/images/games/kindergarten.png"
+                src={imgTwo}
                 alt=""
                 fill
                 className="object-cover"
+                placeholder="blur"
               />
             </div>
 
@@ -166,13 +172,14 @@ function Games() {
             </div>
           </article>
 
-          <article className="shadow-lg rounded-md">
+          <article className="shadow-lg rounded-md overflow-hidden">
             <div className="relative w-full h-56">
               <Image
-                src="/images/games/grade-one.png"
+                src={imgThree}
                 alt=""
                 fill
                 sizes="100vw"
+                placeholder="blur"
                 className="object-cover"
               />
             </div>

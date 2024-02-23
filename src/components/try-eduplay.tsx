@@ -1,4 +1,5 @@
 import Image from "next/image";
+import sectionImg from "/public/images/get-started/primary-img.png";
 
 function TryEduplay() {
   return (
@@ -8,10 +9,11 @@ function TryEduplay() {
           {/* section image */}
           <div className="w-full max-w-[45rem] h-[25rem] relative">
             <Image
-              src="/images/get-started/primary-img.png"
+              src={sectionImg}
               alt=""
               fill
               sizes="100vw"
+              placeholder="blur"
               className="object-cover"
             />
           </div>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import sectionImg from "/public/images/explore-course/explore-img.png";
 
 function ExploreCourse() {
   return (
@@ -22,9 +23,10 @@ function ExploreCourse() {
         {/* section image */}
         <div className="w-full max-w-[30rem] h-[25rem] relative">
           <Image
-            src="/images/explore-course/explore-img.png"
+            src={sectionImg}
             alt=""
             fill
+            placeholder="blur"
             className="object-cover"
           />
         </div>
