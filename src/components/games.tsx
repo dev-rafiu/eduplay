@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import imgOne from "/public/images/games/pre-kindergarten.png";
 import imgTwo from "/public/images/games/kindergarten.png";
-import imgThree from "/public/images/games/pre-kindergarten.png";
+import imgThree from "/public/images/games/grade-one.png";
 
 function Games() {
   return (
@@ -111,8 +111,8 @@ function Games() {
         </div>
 
         {/* games grid */}
-        <div className="grid nap-x snap-mandatory gap-4 lg:gap-6 grid-flow-col text-left overflow-x-auto overscroll-contain scrollbar-hide scroll-smooth py-4 sm:py-0">
-          <article className="shadow-lg rounded-md overflow-hidden">
+        <div className="grid snap-x snap-mandatory gap-4 lg:gap-6 grid-flow-col text-left overflow-x-auto scrollbar-hide scroll-smooth py-4 sm:py-0">
+          <article className="shadow-lg rounded-md">
             <div className="relative w-full h-56">
               <Image
                 src={imgOne}
@@ -142,7 +142,7 @@ function Games() {
             </div>
           </article>
 
-          <article className="shadow-lg rounded-md overflow-hidden">
+          <article className="shadow-lg rounded-md">
             <div className="relative w-full h-56 rounded">
               <Image
                 src={imgTwo}
@@ -172,7 +172,7 @@ function Games() {
             </div>
           </article>
 
-          <article className="shadow-lg rounded-md overflow-hidden">
+          <article className="shadow-lg rounded-md">
             <div className="relative w-full h-56">
               <Image
                 src={imgThree}
