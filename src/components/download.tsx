@@ -93,7 +93,7 @@ function Download() {
       {/* section image */}
       <div className="relative w-[20rem] h-[36rem] lg:h-[35rem]">
         <Image
-          src="/images/how-it-works/mobile-screen.png"
+          src="/images/download/mobile-screen.png"
           alt=""
           fill
           sizes="100vw"
