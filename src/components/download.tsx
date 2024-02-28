@@ -4,7 +4,7 @@ function Download() {
   return (
     <section className="container py-10 flex flex-col sm:flex-row items-center sm:gap-8 gap-4 sm:justify-between relative">
       <Image
-        src="/images/how-it-works/design.png"
+        src="/images/download/design.png"
         alt=""
         width={100}
         height={10}
