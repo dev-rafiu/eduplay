@@ -7,7 +7,7 @@ import designRight from "/public/images/hero/design-left.jpg";
 function Hero() {
   return (
     <section className="bg-[#FBFBFD]">
-      <div className="flex lg:items-center justify-between max-w-md px-[2rem] lg:px-[4rem]">
+      <div className="flex lg:items-center justify-between max-w-md px-[2rem] lg:ml-[7rem]">
         <Image
           src={designLeft}
           alt=""
@@ -24,10 +24,10 @@ function Hero() {
         />
       </div>
 
-      <div className="container grid gap-8 sm:grid-cols-[1fr,_1fr]">
+      <div className="container grid gap-8 sm:grid-cols-2 max-w-[1150]">
         {/* section info */}
         <div className="space-y-4">
-          <h1 className="font-bold tracking-normal max-w-md leading-[3rem] lg:leading-[3.5rem]">
+          <h1 className="font-bold tracking-normal max-w-md leading-[3rem] lg:leading-[3.2rem]">
             Transforming education into
             <span className="bg-gradient-to-r from-sea-blue to-violet bg-clip-text text-transparent">
               {" "}
@@ -51,7 +51,7 @@ function Hero() {
             </a>
             <a
               href="#"
-              className="bg-gray-100 px-4 sm:py-3 py-4 rounded text-foreground text-sm text-center"
+              className="bg-gray-100/45 px-4 sm:py-3 py-4 rounded text-foreground text-sm text-center"
             >
               📚 Explore library
             </a>
@@ -70,7 +70,7 @@ function Hero() {
         </div>
 
         {/* section image */}
-        <div className="w-full h-[20rem] sm:h-[30rem] relative">
+        <div className="w-full h-[20rem] sm:h-[28rem] relative">
           <Image
             src={sectionImage}
             alt="kid"

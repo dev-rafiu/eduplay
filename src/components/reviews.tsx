@@ -34,7 +34,7 @@ function Reviews() {
           />
         </header>
 
-        <div className="grid lg:grid-cols-[repeat(3,_400px)] gap-8 lg:place-content-center">
+        <div className="grid lg:grid-cols-[repeat(3,_auto)] gap-8 lg:place-content-center">
           <article className="space-y-2 shadow-md py-6 px-4 rounded">
             <Image
               src="/images/reviews/quote.png"
@@ -42,7 +42,7 @@ function Reviews() {
               width={20}
               height={20}
             />
-            <p>
+            <p className="leading-7">
               EduPlay has been a game-changer for my 7-year-old! The adaptive
               games make learning enjoyable, and the personalized practice
               sheets are a lifesaver.

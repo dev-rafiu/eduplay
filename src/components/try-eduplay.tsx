@@ -3,9 +3,9 @@ import sectionImg from "/public/images/get-started/primary-img.png";
 
 function TryEduplay() {
   return (
-    <section className="relative pt-10 space-y-8 pb-0 bg-[hsl(240,33%,98%)]">
+    <section className="relative pt-10= space-y-8 pb-0 bg-[hsl(240,33%,98%)]">
       <div className="container">
-        <div className="flex sm:flex-row gap-4 lg:gap-12 flex-col-reverse">
+        <div className="flex sm:flex-row gap-4 lg:gap-12 flex-col-reverse items-center">
           {/* section image */}
           <div className="w-full max-w-[45rem] h-[25rem] relative">
             <Image
@@ -26,13 +26,13 @@ function TryEduplay() {
               fun and discovery. Ready for endless smiles and learning
               adventures?
             </p>
-            <button className="bg-violet text-background p-4 sm:py-3 leading-3 rounded font-semibold text-sm w-full lg:w-max">
+            <button className="bg-violet text-background px-4 py-4 leading-3 rounded font-semibold text-sm w-full lg:w-max">
               Get started for free
             </button>
           </div>
         </div>
 
-        <div className="lg:flex items-center bottom-0 left-0 right-0 justify-between hidden px-8">
+        <div className="lg:flex items-center bottom-0 left-0 right-0 justify-between hidden">
           <Image
             src="/images/get-started/img1.png"
             alt=""

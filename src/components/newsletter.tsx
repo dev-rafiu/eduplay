@@ -4,7 +4,7 @@ function Newsletter() {
       <div className="container grid lg:grid-cols-2 gap-8 lg:items-center">
         <div className="space-y-2 text-background">
           <h3>Newsletter</h3>
-          <p className="max-w-xl">
+          <p className="max-w-xl leading-6">
             Spark joy in learning 🌟 Join our newsletter to get the latest
             games, practice sheets, and bedtime stories. 🚀
           </p>

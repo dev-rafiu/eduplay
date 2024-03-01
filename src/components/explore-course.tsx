@@ -4,7 +4,7 @@ import sectionImg from "/public/images/explore-course/explore-img.png";
 function ExploreCourse() {
   return (
     <section className="explore-course py-6 border">
-      <div className="container flex flex-col-reverse lg:flex-row items-center justify-between gap-4 lg:gap-8">
+      <div className="container flex flex-col-reverse sm:flex-row items-center max-w-6xl justify-between gap-4 lg:gap-8">
         {/* section info */}
         <div className="space-y-4 text-background">
           <h2 className="max-w-md">

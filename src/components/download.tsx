@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Download() {
   return (
-    <section className="container py-10 flex flex-col sm:flex-row items-center sm:gap-8 gap-4 sm:justify-between relative">
+    <section className="container py-10 flex flex-col max-w-6xl sm:flex-row items-center sm:gap-8 gap-4 sm:justify-between relative">
       <Image
         src="/images/download/design.png"
         alt=""
@@ -23,7 +23,7 @@ function Download() {
           captivate young minds and make education an exciting journey.
         </p>
 
-        <ul className="grid gap-4">
+        <ul className="grid gap-5">
           <li className="flex items-center gap-4 font-semibold">
             <span className="p-2 size-7 text-sm grid place-content-center text-background rounded-full bg-gradient-to-r from-sea-blue to-violet">
               1

@@ -75,10 +75,10 @@ const links = [
 
 function FooterTop() {
   return (
-    <div className="grid gap-4 lg:grid-cols-[auto,_auto,_auto,_auto]">
+    <div className="grid gap-6 lg:grid-cols-[auto,_auto,_auto,_auto]">
       <div className="space-y-4">
         <Image src="/logo-desktop.png" alt="logo" width={90} height={70} />
-        <p className="max-w-xl leading-6">
+        <p className="max-w-lg leading-6">
           Where every game is a lesson, and every lesson is a game. Our app
           transforms education into playful games, captivating young minds with
           interactive fun.

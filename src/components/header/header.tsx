@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FiMenu } from "react-icons/fi";
 
 import playstoreImg from "/public/images/playstore.jpg";
-import appstoreImg from "/public/images/playstore.jpg";
+import appstoreImg from "/public/images/appstore.jpg";
 
 function Header() {
   return (
