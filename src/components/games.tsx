@@ -112,7 +112,7 @@ function Games() {
           </div>
 
           {/* games grid */}
-          <div className="grid snap-x snap-mandatory gap-4 lg:gap-6 grid-flow-col text-left overflow-x-auto scrollbar-hide scroll-smooth py-4 sm:py-0">
+          <div className="grid snap-x snap-mandatory gap-4 lg:gap-6 grid-flow-col text-left overflow-x-auto scrollbar-hide scroll-smooth py-8">
             <article className="shadow-lg rounded-md">
               <div className="relative w-full h-56">
                 <Image

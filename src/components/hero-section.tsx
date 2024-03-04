@@ -7,24 +7,26 @@ import designRight from "/public/images/hero/design-left.jpg";
 function Hero() {
   return (
     <section className="bg-[#FBFBFD]">
-      <div className="flex lg:items-center justify-between max-w-md px-[2rem] lg:ml-[7rem]">
-        <Image
-          src={designLeft}
-          alt=""
-          width={40}
-          height={100}
-          placeholder="blur"
-        />
-        <Image
-          src={designRight}
-          alt=""
-          width={40}
-          height={100}
-          placeholder="blur"
-        />
+      <div className="container">
+        <div className="flex lg:items-center justify-between max-w-sm">
+          <Image
+            src={designLeft}
+            alt=""
+            width={40}
+            height={100}
+            placeholder="blur"
+          />
+          <Image
+            src={designRight}
+            alt=""
+            width={40}
+            height={100}
+            placeholder="blur"
+          />
+        </div>
       </div>
 
-      <div className="container grid gap-8 sm:grid-cols-2 max-w-[1150]">
+      <div className="container grid gap-8 sm:grid-cols-2 max-w-[1250px]">
         {/* section info */}
         <div className="space-y-4">
           <h1 className="font-bold tracking-normal max-w-md leading-[3rem] lg:leading-[3.2rem]">

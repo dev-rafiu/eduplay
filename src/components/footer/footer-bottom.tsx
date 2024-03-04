@@ -26,12 +26,18 @@ function FooterBottom() {
       {/* attribution */}
       <p className="text-center">
         Designed by
-        <a href="" className="text-violet">
+        <a
+          href="https://www.linkedin.com/in/daphne-augustine"
+          className="text-violet"
+        >
           {" "}
           Daphne Augustine.{" "}
         </a>
         Developed by
-        <a href="" className="text-violet">
+        <a
+          href="https://www.linkedin.com/in/rafiw-idrissu"
+          className="text-violet"
+        >
           {" "}
           Rafiw Idrissu.
         </a>
